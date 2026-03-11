@@ -1,0 +1,167 @@
+locator.innerText: Test ended.
+Call log:
+  - waiting for locator('#account-login>div.alert')
+
+    at Login.getwarningmsg (C:\Users\jkart\TypeScript_Framework\pages\Loginpage.ts:64:30)
+    at C:\Users\jkart\TypeScript_Framework\tests\LoginLogoutDataDriven.spec.ts:39:26 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\jkart\\TypeScript_Framework\\pages\\Loginpage.ts',
+      line: 64,
+      column: 30,
+      function: 'Login.getwarningmsg'
+    },
+    category: 'pw:api',
+    title: "Get inner text locator('#account-login>div.alert')",
+    apiName: 'locator.innerText',
+    params: { selector: '#account-login>div.alert', strict: true, timeout: 0 },
+    group: 'getter',
+    stepId: 'pw:api@38',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@38',
+      _title: "Get inner text locator('#account-login>div.alert')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1773055995021,
+    error: {
+      message: 'Error: locator.innerText: Test ended.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('#account-login>div.alert')\x1B[22m\n",
+      stack: 'Error: locator.innerText: Test ended.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('#account-login>div.alert')\x1B[22m\n" +
+        '\n' +
+        '    at Login.getwarningmsg (C:\\Users\\jkart\\TypeScript_Framework\\pages\\Loginpage.ts:64:30)\n' +
+        '    at C:\\Users\\jkart\\TypeScript_Framework\\tests\\LoginLogoutDataDriven.spec.ts:39:26',
+      cause: undefined
+    }
+  }
+}
+locator.clear: Test ended.
+Call log:
+  - waiting for locator('#input-email')
+    - locator resolved to <input value="" type="text" name="email" id="input-email" class="form-control" placeholder="E-Mail Address"/>
+    - fill("")
+  - attempting fill action
+    - waiting for element to be visible, enabled and editable
+
+    at Login.entermailid (C:\Users\jkart\TypeScript_Framework\pages\Loginpage.ts:36:29)
+    at C:\Users\jkart\TypeScript_Framework\tests\LoginLogoutDataDriven.spec.ts:30:15 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\jkart\\TypeScript_Framework\\pages\\Loginpage.ts',
+      line: 36,
+      column: 29,
+      function: 'Login.entermailid'
+    },
+    category: 'pw:api',
+    title: "Clear locator('#input-email')",
+    apiName: 'locator.clear',
+    params: { selector: '#input-email', value: '', strict: true, timeout: 0 },
+    group: undefined,
+    stepId: 'pw:api@36',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@36',
+      _title: "Clear locator('#input-email')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1773055995028,
+    error: {
+      message: 'Error: locator.clear: Test ended.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('#input-email')\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to <input value="" type="text" name="email" id="input-email" class="form-control" placeholder="E-Mail Address"/>\x1B[22m\n' +
+        '\x1B[2m    - fill("")\x1B[22m\n' +
+        '\x1B[2m  - attempting fill action\x1B[22m\n' +
+        '\x1B[2m    - waiting for element to be visible, enabled and editable\x1B[22m\n',
+      stack: 'Error: locator.clear: Test ended.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('#input-email')\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to <input value="" type="text" name="email" id="input-email" class="form-control" placeholder="E-Mail Address"/>\x1B[22m\n' +
+        '\x1B[2m    - fill("")\x1B[22m\n' +
+        '\x1B[2m  - attempting fill action\x1B[22m\n' +
+        '\x1B[2m    - waiting for element to be visible, enabled and editable\x1B[22m\n' +
+        '\n' +
+        '    at Login.entermailid (C:\\Users\\jkart\\TypeScript_Framework\\pages\\Loginpage.ts:36:29)\n' +
+        '    at C:\\Users\\jkart\\TypeScript_Framework\\tests\\LoginLogoutDataDriven.spec.ts:30:15',
+      cause: undefined
+    }
+  }
+}
+locator.clear: Test ended.
+Call log:
+  - waiting for locator('#input-password')
+    - locator resolved to <input value="" type="password" name="password" id="input-password" class="form-control" placeholder="Password"/>
+    - fill("")
+  - attempting fill action
+    - waiting for element to be visible, enabled and editable
+
+    at Login.enterpassword (C:\Users\jkart\TypeScript_Framework\pages\Loginpage.ts:46:32)
+    at C:\Users\jkart\TypeScript_Framework\tests\LoginLogoutDataDriven.spec.ts:31:15 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\jkart\\TypeScript_Framework\\pages\\Loginpage.ts',
+      line: 46,
+      column: 32,
+      function: 'Login.enterpassword'
+    },
+    category: 'pw:api',
+    title: "Clear locator('#input-password')",
+    apiName: 'locator.clear',
+    params: {
+      selector: '#input-password',
+      value: '',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@37',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@37',
+      _title: "Clear locator('#input-password')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1773055995030,
+    error: {
+      message: 'Error: locator.clear: Test ended.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('#input-password')\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to <input value="" type="password" name="password" id="input-password" class="form-control" placeholder="Password"/>\x1B[22m\n' +
+        '\x1B[2m    - fill("")\x1B[22m\n' +
+        '\x1B[2m  - attempting fill action\x1B[22m\n' +
+        '\x1B[2m    - waiting for element to be visible, enabled and editable\x1B[22m\n',
+      stack: 'Error: locator.clear: Test ended.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('#input-password')\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to <input value="" type="password" name="password" id="input-password" class="form-control" placeholder="Password"/>\x1B[22m\n' +
+        '\x1B[2m    - fill("")\x1B[22m\n' +
+        '\x1B[2m  - attempting fill action\x1B[22m\n' +
+        '\x1B[2m    - waiting for element to be visible, enabled and editable\x1B[22m\n' +
+        '\n' +
+        '    at Login.enterpassword (C:\\Users\\jkart\\TypeScript_Framework\\pages\\Loginpage.ts:46:32)\n' +
+        '    at C:\\Users\\jkart\\TypeScript_Framework\\tests\\LoginLogoutDataDriven.spec.ts:31:15',
+      cause: undefined
+    }
+  }
+}

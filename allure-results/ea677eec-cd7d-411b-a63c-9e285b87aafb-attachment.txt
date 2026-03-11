@@ -1,0 +1,88 @@
+locator.click: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('ul>li>a:has-text("Logout")')
+
+    at Logout.clicklogout (C:\Users\jkart\TypeScript_Framework\pages\Logoutpage.ts:20:34)
+    at C:\Users\jkart\TypeScript_Framework\tests\LoginLogoutDataDriven.spec.ts:45:26 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\jkart\\TypeScript_Framework\\pages\\Logoutpage.ts',
+      line: 20,
+      column: 34,
+      function: 'Logout.clicklogout'
+    },
+    category: 'pw:api',
+    title: `Click locator('ul>li>a:has-text("Logout")')`,
+    apiName: 'locator.click',
+    params: {
+      selector: 'ul>li>a:has-text("Logout")',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@36',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@36',
+      _title: `Click locator('ul>li>a:has-text("Logout")')`,
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1773056318578,
+    error: {
+      message: 'Error: locator.click: Test timeout of 30000ms exceeded.\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('ul>li>a:has-text("Logout")')\x1B[22m\n`,
+      stack: 'Error: locator.click: Test timeout of 30000ms exceeded.\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('ul>li>a:has-text("Logout")')\x1B[22m\n` +
+        '\n' +
+        '    at Logout.clicklogout (C:\\Users\\jkart\\TypeScript_Framework\\pages\\Logoutpage.ts:20:34)\n' +
+        '    at C:\\Users\\jkart\\TypeScript_Framework\\tests\\LoginLogoutDataDriven.spec.ts:45:26',
+      cause: undefined
+    }
+  }
+}
+locator.click: Target page, context or browser has been closed
+    at Logout.clickcontinue (C:\Users\jkart\TypeScript_Framework\pages\Logoutpage.ts:38:36)
+    at C:\Users\jkart\TypeScript_Framework\tests\LoginLogoutDataDriven.spec.ts:46:26 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\jkart\\TypeScript_Framework\\pages\\Logoutpage.ts',
+      line: 38,
+      column: 36,
+      function: 'Logout.clickcontinue'
+    },
+    category: 'pw:api',
+    title: "Click locator('.pull-right>a')",
+    apiName: 'locator.click',
+    params: { selector: '.pull-right>a', strict: true, timeout: 0 },
+    group: undefined,
+    stepId: 'pw:api@41',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@41',
+      _title: "Click locator('.pull-right>a')",
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1773056318613,
+    error: {
+      message: 'Error: locator.click: Target page, context or browser has been closed',
+      stack: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        '    at Logout.clickcontinue (C:\\Users\\jkart\\TypeScript_Framework\\pages\\Logoutpage.ts:38:36)\n' +
+        '    at C:\\Users\\jkart\\TypeScript_Framework\\tests\\LoginLogoutDataDriven.spec.ts:46:26',
+      cause: undefined
+    }
+  }
+}

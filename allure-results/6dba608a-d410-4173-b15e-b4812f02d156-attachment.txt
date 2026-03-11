@@ -1,0 +1,102 @@
+Account Not Shown..Error: locator.innerText: Test ended.
+Call log:
+  - waiting for locator('#content>h2:has-text("My Account")')
+
+locator.fill: Test ended.
+Call log:
+  - waiting for locator('#input-email')
+
+    at Login.entermailid (C:\Users\jkart\TypeScript_Framework\pages\Loginpage.ts:37:29) {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\jkart\\TypeScript_Framework\\pages\\Loginpage.ts',
+      line: 37,
+      column: 29,
+      function: 'Login.entermailid'
+    },
+    category: 'pw:api',
+    title: `Fill "pavanoll@abc.com" locator('#input-email')`,
+    apiName: 'locator.fill',
+    params: {
+      selector: '#input-email',
+      value: 'pavanoll@abc.com',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@44',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@44',
+      _title: `Fill "pavanoll@abc.com" locator('#input-email')`,
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1773055267860,
+    error: {
+      message: 'Error: locator.fill: Test ended.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('#input-email')\x1B[22m\n",
+      stack: 'Error: locator.fill: Test ended.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('#input-email')\x1B[22m\n" +
+        '\n' +
+        '    at Login.entermailid (C:\\Users\\jkart\\TypeScript_Framework\\pages\\Loginpage.ts:37:29)',
+      cause: undefined
+    }
+  }
+}
+locator.fill: Test ended.
+Call log:
+  - waiting for locator('#input-password')
+
+    at Login.enterpassword (C:\Users\jkart\TypeScript_Framework\pages\Loginpage.ts:47:32) {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\jkart\\TypeScript_Framework\\pages\\Loginpage.ts',
+      line: 47,
+      column: 32,
+      function: 'Login.enterpassword'
+    },
+    category: 'pw:api',
+    title: `Fill "test@123" locator('#input-password')`,
+    apiName: 'locator.fill',
+    params: {
+      selector: '#input-password',
+      value: 'test@123',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@46',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@46',
+      _title: `Fill "test@123" locator('#input-password')`,
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1773055267863,
+    error: {
+      message: 'Error: locator.fill: Test ended.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('#input-password')\x1B[22m\n",
+      stack: 'Error: locator.fill: Test ended.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('#input-password')\x1B[22m\n" +
+        '\n' +
+        '    at Login.enterpassword (C:\\Users\\jkart\\TypeScript_Framework\\pages\\Loginpage.ts:47:32)',
+      cause: undefined
+    }
+  }
+}

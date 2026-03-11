@@ -1,0 +1,4 @@
+Account Not Shown..Error: locator.innerText: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('#content>h2:has-text("My Account")')
+

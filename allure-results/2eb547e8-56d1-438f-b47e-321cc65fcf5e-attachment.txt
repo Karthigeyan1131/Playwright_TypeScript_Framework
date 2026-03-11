@@ -1,0 +1,47 @@
+locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('a:has-text("My Account")')
+
+    at Home.clickmyacctlink (C:\Users\jkart\TypeScript_Framework\pages\Homepage.ts:33:38)
+    at C:\Users\jkart\TypeScript_Framework\tests\Registration.spec.ts:27:20 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\jkart\\TypeScript_Framework\\pages\\Homepage.ts',
+      line: 33,
+      column: 38,
+      function: 'Home.clickmyacctlink'
+    },
+    category: 'pw:api',
+    title: `Click locator('a:has-text("My Account")')`,
+    apiName: 'locator.click',
+    params: { selector: 'a:has-text("My Account")', strict: true, timeout: 0 },
+    group: undefined,
+    stepId: 'pw:api@35',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@35',
+      _title: `Click locator('a:has-text("My Account")')`,
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1772970474271,
+    error: {
+      message: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('a:has-text("My Account")')\x1B[22m\n`,
+      stack: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('a:has-text("My Account")')\x1B[22m\n` +
+        '\n' +
+        '    at Home.clickmyacctlink (C:\\Users\\jkart\\TypeScript_Framework\\pages\\Homepage.ts:33:38)\n' +
+        '    at C:\\Users\\jkart\\TypeScript_Framework\\tests\\Registration.spec.ts:27:20',
+      cause: undefined
+    }
+  }
+}
+[Function: error]
